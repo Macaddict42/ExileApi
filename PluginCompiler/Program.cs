@@ -56,7 +56,7 @@ namespace PluginCompiler
                 {
                     var result = provider.CompileAssemblyFromFile(parameters, csFiles);
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
 
                 }
