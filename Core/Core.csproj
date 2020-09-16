@@ -37,10 +37,6 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ImGui.NET, Version=1.71.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\deps\ImGui.NET.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
@@ -51,7 +47,6 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.IO.Compression.FileSystem" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Runtime" />
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Runtime.InteropServices" />
@@ -398,7 +393,6 @@
     <Compile Include="WorldPositionExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="Shared\packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -419,8 +413,11 @@
     <PackageReference Include="Antlr4.Runtime">
       <Version>4.6.6</Version>
     </PackageReference>
+    <PackageReference Include="ImGui.NET">
+      <Version>1.71.0</Version>
+    </PackageReference>
     <PackageReference Include="InlineIL.Fody">
-      <Version>1.3.2</Version>
+      <Version>1.5.0</Version>
     </PackageReference>
     <PackageReference Include="LibGit2Sharp">
       <Version>0.26.2</Version>
@@ -441,16 +438,16 @@
       <Version>12.0.3</Version>
     </PackageReference>
     <PackageReference Include="PoeFilterParser">
-      <Version>1.0.44</Version>
+      <Version>1.0.58</Version>
     </PackageReference>
     <PackageReference Include="ProcessMemoryUtilities.Net">
       <Version>1.2.0</Version>
     </PackageReference>
     <PackageReference Include="Serilog">
-      <Version>2.8.0</Version>
+      <Version>2.10.0</Version>
     </PackageReference>
     <PackageReference Include="Serilog.Sinks.File">
-      <Version>4.0.0</Version>
+      <Version>4.1.0</Version>
     </PackageReference>
     <PackageReference Include="Serilog.Sinks.RollingFile">
       <Version>3.3.0</Version>
@@ -472,21 +469,6 @@
     </PackageReference>
     <PackageReference Include="SharpDX.XAudio2">
       <Version>4.2.0</Version>
-    </PackageReference>
-    <PackageReference Include="System.Buffers">
-      <Version>4.5.0</Version>
-    </PackageReference>
-    <PackageReference Include="System.Numerics.Vectors">
-      <Version>4.5.0</Version>
-    </PackageReference>
-    <PackageReference Include="System.Reflection.Emit">
-      <Version>4.3.0</Version>
-    </PackageReference>
-    <PackageReference Include="System.Reflection.Emit.Lightweight">
-      <Version>4.3.0</Version>
-    </PackageReference>
-    <PackageReference Include="System.ValueTuple">
-      <Version>4.5.0</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
