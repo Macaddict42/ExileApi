@@ -34,9 +34,6 @@
 [submodule "Plugins/Stashie"]
 	path = Plugins/Stashie
 	url = https://github.com/Queuete/Stashie
-[submodule "Plugins/UnIdy"]
-	path = Plugins/UnIdy
-	url = https://github.com/Queuete/UnIdy
 [submodule "Plugins/PreloadAlert"]
 	path = Plugins/PreloadAlert
 	url = https://github.com/Macaddict42/PreloadAlert
