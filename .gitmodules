@@ -1,0 +1,42 @@
+[submodule "Plugins/AutoQuit"]
+	path = Plugins/AutoQuit
+	url = https://github.com/Queuete/AutoQuit.git
+[submodule "Plugins/BasicFlaskRoutine"]
+	path = Plugins/BasicFlaskRoutine
+	url = https://github.com/Queuete/BasicFlaskRoutine.git
+[submodule "Plugins/BuffUtil"]
+	path = Plugins/BuffUtil
+	url = https://github.com/Queuete/BuffUtil.git
+[submodule "Plugins/DeliriumSpawnerHighlight"]
+	path = Plugins/DeliriumSpawnerHighlight
+	url = https://github.com/Queuete/DeliriumSpawnerHighlight.git
+[submodule "Plugins/DevTree"]
+	path = Plugins/DevTree
+	url = https://github.com/Queuete/DevTree.git
+[submodule "Plugins/HealthBars"]
+	path = Plugins/HealthBars
+	url = https://github.com/Queuete/HealthBars.git
+[submodule "Plugins/IconsBuilder"]
+	path = Plugins/IconsBuilder
+	url = https://github.com/Queuete/IconsBuilder.git
+[submodule "Plugins/InventoryItemsAnalyzer"]
+	path = Plugins/InventoryItemsAnalyzer
+	url = https://github.com/Queuete/InventoryItemsAnalyzer.git
+[submodule "Plugins/MinimapIcons"]
+	path = Plugins/MinimapIcons
+	url = https://github.com/Queuete/MinimapIcons.git
+[submodule "Plugins/Pickit"]
+	path = Plugins/Pickit
+	url = https://github.com/Queuete/Pickit.git
+[submodule "Plugins/PreloadAlert"]
+	path = Plugins/PreloadAlert
+	url = https://github.com/Queuete/PreloadAlert
+[submodule "Plugins/SithylisQoL"]
+	path = Plugins/SithylisQoL
+	url = https://github.com/Queuete/SithylisQoL
+[submodule "Plugins/Stashie"]
+	path = Plugins/Stashie
+	url = https://github.com/Queuete/Stashie
+[submodule "Plugins/UnIdy"]
+	path = Plugins/UnIdy
+	url = https://github.com/Queuete/UnIdy
