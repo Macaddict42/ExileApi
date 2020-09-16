@@ -28,9 +28,6 @@
 [submodule "Plugins/Pickit"]
 	path = Plugins/Pickit
 	url = https://github.com/Queuete/Pickit.git
-[submodule "Plugins/PreloadAlert"]
-	path = Plugins/PreloadAlert
-	url = https://github.com/Queuete/PreloadAlert
 [submodule "Plugins/SithylisQoL"]
 	path = Plugins/SithylisQoL
 	url = https://github.com/Queuete/SithylisQoL
