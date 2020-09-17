@@ -208,7 +208,7 @@ namespace ExileCore
             if (gameController.Area.CurrentArea == null 
                 /*|| !EntitiesStack.CanRead */ 
                 || entityCollectSettingsContainer.NeedUpdate 
-                || !Player.IsValid)
+                || Player == null || !Player.IsValid)
                 return;
 
             while (Simple.Count > 0)
