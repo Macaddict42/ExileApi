@@ -2,6 +2,7 @@ using ExileCore.RenderQ;
 using ExileCore.Shared.AtlasHelper;
 using ExileCore.Shared.Enums;
 using ExileCore.Shared.Helpers;
+using ImGuiNET;
 using SharpDX;
 using Vector2N = System.Numerics.Vector2;
 
