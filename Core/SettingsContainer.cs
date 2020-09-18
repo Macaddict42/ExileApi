@@ -91,6 +91,9 @@ namespace ExileCore
                         var readAllText = File.ReadAllText(PLUGIN_AUTO_UPDATE_SETTINGS_FILE_DEFAULT);
                         PluginsUpdateSettings = JsonConvert.DeserializeObject<PluginsUpdateSettings>(readAllText);
                     }
+
+                    Directory.CreateDirectory("Plugins");
+
                     File.AppendAllText(PLUGIN_AUTO_UPDATE_SETTINGS_FILE, JsonConvert.SerializeObject(PluginsUpdateSettings, Formatting.Indented));
                 }
                 else
