@@ -40,3 +40,6 @@
 [submodule "Plugins/UnIdy"]
 	path = Plugins/UnIdy
 	url = https://github.com/Macaddict42/UnIdy
+[submodule "Plugins/AutoSkill"]
+	path = Plugins/AutoSkill
+	url = https://github.com/Macaddict42/AutoSkill.git
